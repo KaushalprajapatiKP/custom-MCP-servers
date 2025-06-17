@@ -1,0 +1,13 @@
+[project]
+name = "Custom-py-mcp-servers-including-rag"
+version = "0.1.0"
+description = "Building your own Custom MCP servers"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "mcp[cli]>=1.6.0",
+    "requests>=2.32.3",
+    "groundx>=2.3.0",
+    "ipykernel>=6.29.5",
+    "openai>=1.75.0"
+]
